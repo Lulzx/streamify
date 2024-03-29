@@ -24,19 +24,24 @@
 
     --action: 178, 16, 100, 1;
     --action-muted: 112, 16, 66, 1;
+    --action-spatial: 178, 16, 100, 0.25;
 
     /* Signal colors */
     --active: 13, 153, 255, 1;
     --active-muted: 8, 92, 153, 1;
+    --active-spatial: 13, 153, 255, 0.25;
 
     --passive: 255, 204, 0, 1;
     --passive-muted: 153, 122, 0, 1;
+    --passive-spatial: 255, 204, 0, 0.25;
 
     --positive: 34, 197, 94, 1;
     --positive-muted: 20, 118, 56, 1;
+    --positive-spatial: 34, 197, 94, 0.25;
 
     --negative: 220, 5, 45, 1;
     --negative-muted: 132, 3, 27, 1;
+    --negative-spatial: 220, 5, 45, 0.25;
 
     /* Transparent color */
     --transparent: 0, 0, 0, 0;
@@ -78,19 +83,24 @@
 
     --action: 178, 16, 100, 1;
     --action-muted: 112, 16, 66, 1;
+    --action-spatial: 178, 16, 100, 0.25;
 
     /* Signal colors */
     --active: 13, 153, 255, 1;
     --active-muted: 8, 92, 153, 1;
+    --active-spatial: 13, 153, 255, 0.25;
 
     --passive: 255, 204, 0, 1;
     --passive-muted: 153, 122, 0, 1;
+    --passive-spatial: 255, 204, 0, 0.25;
 
     --positive: 34, 197, 94, 1;
     --positive-muted: 20, 118, 56, 1;
+    --positive-spatial: 34, 197, 94, 0.25;
 
     --negative: 220, 5, 45, 1;
     --negative-muted: 132, 3, 27, 1;
+    --negative-spatial: 220, 5, 45, 0.25;
 
     /* Transparent color */
     --transparent: 0, 0, 0, 0;

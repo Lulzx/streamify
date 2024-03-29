@@ -1,12 +1,11 @@
 "use client";
 
 import React from "react";
-import { HomepageContainer } from "@shared-components/ui/container";
 import { Badge, badgeVariants } from "@shared-components/ui/badge";
 import { ArrowRightCircle, VideoIcon } from "@shared-components/graphics/icons";
 import { Link } from "@shared-components/ui/link";
-// import { useTranslations } from "next-intl";
 import HeroGradientTitle from "@shared-components/animations/gradient-title";
+import ExpandingArrowRight from "@shared-components/animations/expanding-arrow-right";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@shared-components/lib/utils";
 import { buttonVariants } from "@shared-components/ui/button";
@@ -37,7 +36,7 @@ export default function HeroSectionComponent({
 
   return (
     <AnimatePresence>
-      <div className="bg-transparent flex flex-col justify-center static overflow-hidden px-8">
+      <div className="bg-background flex flex-col justify-center static overflow-hidden px-8">
         <div>
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -47,7 +46,7 @@ export default function HeroSectionComponent({
               duration: 0.55,
               ease: [0.075, 0.82, 0.965, 1],
             }}
-            className="mx-auto pb-4 sm:pb-12 text-center"
+            className="mx-auto pb-4 sm:pb-8 text-center"
           >
             <Link href="/story">
               <div className={badgeVariants({ variant: "outline" })}>
@@ -96,7 +95,7 @@ export default function HeroSectionComponent({
             >
               {description}
             </motion.h3>
-            <motion.h3
+            {/* <motion.h3
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{
@@ -107,7 +106,7 @@ export default function HeroSectionComponent({
               className="pb-4 text-primary sm:text-sm text-xs uppercase"
             >
               {highlight}
-            </motion.h3>
+            </motion.h3> */}
             <div className="mx-auto text-center">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
@@ -134,13 +133,16 @@ export default function HeroSectionComponent({
                   href="/welcome"
                   className={cn(
                     buttonVariants({
-                      variant: "secondaryButton",
+                      variant: "tertiaryButton",
                       size: "defaultSize",
                     }),
+                    "sm:pr-8",
                   )}
                 >
-                  <VideoIcon className="h-6 w-auto mr-2" />
-                  Watch trailer (2 min)
+                  {/* <VideoIcon className="h-6 w-auto mr-2" /> */}
+                  {/* Watch trailer (2 min) */}
+                  See demo
+                  <ExpandingArrowRight className="h-4 w-auto ml-1 text-primary-muted" />
                 </Link>
               </motion.div>
             </div>

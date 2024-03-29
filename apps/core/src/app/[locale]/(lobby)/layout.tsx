@@ -15,9 +15,9 @@ export default async function OpenLobbyLayout({
   const user = await currentUser();
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-background">
       <HeaderWebsiteComponent user={user} />
-      <main className="flex-1 py-8 sm:py-24">{children}</main>
+      <main className="flex-1 pt-8 sm:pt-24 sm:pb-8">{children}</main>
       <CookieBannerComponent />
       <FooterHomeComponent />
       <FooterPaymentLayout />

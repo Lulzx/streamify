@@ -11,6 +11,7 @@ import NavigationBar from "./_components/navigation-bar";
 import { homepageConfig } from "./_components/homepage";
 import NavigationMain from "./_components/navigation-main";
 import { useScroll } from "@shared-components/lib/use-scroll";
+import DrawerMain from "./_components/drawer-main";
 
 interface HeaderWebsiteProps {
   children?: React.ReactNode;
@@ -96,7 +97,7 @@ export function HeaderWebsite({
             </ul>
           </div>
           <div className="flex items-center gap-6 sm:hidden">
-            <NavigationMain
+            <DrawerMain
               items={homepageConfig.mainNav}
               user={user}
               isComponentOpen={isComponentOpen}

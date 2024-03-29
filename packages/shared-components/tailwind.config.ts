@@ -87,22 +87,27 @@ export default {
         action: {
           DEFAULT: "rgba(var(--action))",
           muted: "rgba(var(--action-muted))",
+          spatial: "rgba(var(--action-spatial))",
         },
         active: {
           DEFAULT: "rgba(var(--active))",
           muted: "rgba(var(--active-muted))",
+          spatial: "rgba(var(--active-spatial))",
         },
         passive: {
           DEFAULT: "rgba(var(--passive))",
           muted: "rgba(var(--passive-muted))",
+          spatial: "rgba(var(--passive-spatial))",
         },
         positive: {
           DEFAULT: "rgba(var(--positive))",
           muted: "rgba(var(--positive-muted))",
+          spatial: "rgba(var(--positive-spatial))",
         },
         negative: {
           DEFAULT: "rgba(var(--negative))",
           muted: "rgba(var(--negative-muted))",
+          spatial: "rgba(var(--negative-spatial))",
         },
         transparent: "rgba(var(--transparent))",
         link: "rgba(var(--link))",

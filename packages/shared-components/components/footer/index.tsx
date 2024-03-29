@@ -683,7 +683,7 @@ export function FooterHomepageLayout({
             </Accordion>
             <div className="mt-8 sm:mt-0 sm:border-l border-transparend sm:border-separator">
               <div className="sm:ml-8">
-                <h3 className="text-md text-primary sm:font-semibold ront-regular leading-6">
+                <h3 className="text-md text-primary sm:font-semibold font-semibold leading-6">
                   {title}
                 </h3>
                 <p className="text-md text-primary-muted my-4 leading-6">
@@ -723,21 +723,21 @@ export function FooterDeclarationLayout({
       <HomepageContainer>
         <div className="sm:flex sm:justify-between">
           <div className="w-full flex items-center justify-between">
-            <p className="hidden font-regular text-primary-muted text-xs leading-5 sm:order-2 order-1 sm:absolute sm:flex sm:left-1/2 sm:-translate-x-1/2">
+            <p className="hidden font-regular text-primary-muted text-xs leading-5 sm:order-1 order-1 sm:flex">
               &copy;&nbsp;{company}&nbsp;{new Date().getFullYear()}.&nbsp;
               {all_rights_reserved}
             </p>
-            <p className="sm:hidden font-regular text-primary-muted text-xs leading-5 sm:order-2 order-1 sm:absolute flex sm:left-1/2 sm:-translate-x-1/2">
+            <p className="sm:hidden font-regular text-primary-muted text-xs leading-5 sm:order-2 order-1">
               &copy;&nbsp;{company}&nbsp;{new Date().getFullYear()}
             </p>
             <div className="sm:order-1 order-2 sm:hidden block">
               <ThemeIconToggleTabs />
             </div>
-            <div className="sm:order-1 order-2 hidden sm:block">
+            <div className="sm:order-2 order-2 hidden sm:block">
               <ThemeTextToggleTabs light={light} dark={dark} system={system} />
             </div>
           </div>
-          <div className="flex justify-center sm:justify-end space-x-2 sm:order-3 order-1 w-full mt-4 sm:mt-0">
+          {/* <div className="flex justify-center sm:justify-end space-x-2 sm:order-3 order-1 w-full mt-4 sm:mt-0">
             {navigationWebsite.social.map((item) => (
               <Link
                 key={item.name}
@@ -748,7 +748,7 @@ export function FooterDeclarationLayout({
                 {item.icon({ className: "h-4 w-4 sm:h-5 sm:w-5" } as IconProps)}
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
       </HomepageContainer>
     </footer>
