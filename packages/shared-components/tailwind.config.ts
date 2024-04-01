@@ -146,5 +146,8 @@ export default {
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
     require("tailwindcss-animate"),
+    require("@vidstack/react/tailwind.cjs")({
+      prefix: "media",
+    }),
   ],
 } satisfies Config;

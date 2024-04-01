@@ -15,6 +15,7 @@ import { LanguagePicker } from "@/components/language-picker";
 import { ExperimentalComponent } from "@/components/experiemental-component";
 import { GithubGlobe } from "@/components/github-globe";
 import CopyToClipboard from "@shared-components/components/copy-to-clipboard";
+import { Player } from "@shared-components/components/player";
 
 type Props = {
   params: { locale: string };
@@ -43,6 +44,7 @@ export default function Page({ params: { locale } }: Props) {
 
   return (
     <div className="flex-1 space-y-4">
+      <Player />
       <ShortLocaleLink locale="en" href="/test" />
       <ShortLocaleLink locale="de" href="/test" />
       <Link
