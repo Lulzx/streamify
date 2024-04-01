@@ -17,7 +17,7 @@ const buttonVariants = cva(
         actionButton:
           "bg-action sm:hover:bg-action-muted text-background sm:hover:text-white border border-action sm:hover:border-action-muted",
         insentiveButton:
-          "bg-transparent text-action sm:hover:underline hover:underline-offset-4 sm:hover:text-action-muted border border-transparent",
+          "bg-transparent text-action sm:hover:underline hover:underline-offset-4 sm:hover:text-action border border-action sm:border-transparent",
         ghostButton:
           "bg-transparent sm:hover:bg-secondary-muted text-secondary-inner sm:hover:text-secondary-hover border border-transparent sm:hover:border-separator",
         blurButton:
@@ -56,7 +56,7 @@ const buttonVariants = cva(
         fullSize: "h-10 sm:h-10 w-full sm:w-full py-2 px-4",
         headerSize: "h-8 sm:h-8 w-full sm:w-auto py-1 px-4 sm:text-sm",
         footerSize:
-          "h-8 sm:text-xs text-sm w-full sm:w-auto sm:py-1 sm:px-2 py-0 px-0 sm:justify-center justify-start",
+          "h-8 sm:text-sm text-sm w-full sm:w-auto sm:py-1 sm:px-2 py-0 px-0 sm:justify-center justify-start",
         navigationSize: "h-8",
         iconSize: "h-9 w-9",
         roundedSize: "h-8 w-8 rounded-full",

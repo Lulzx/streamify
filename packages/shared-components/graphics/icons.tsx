@@ -1296,14 +1296,19 @@ export function VideoIcon(
       xmlns="http://www.w3.org/2000/svg"
       width="32"
       height="32"
-      viewBox="0 0 20 20"
+      viewBox="0 0 512 512"
       {...props}
     >
       <path
+        fill="none"
+        stroke="currentColor"
+        stroke-miterlimit="10"
+        stroke-width="32"
+        d="M448 256c0-106-86-192-192-192S64 150 64 256s86 192 192 192s192-86 192-192Z"
+      />
+      <path
         fill="currentColor"
-        fill-rule="evenodd"
-        d="M2 10a8 8 0 1 1 16 0a8 8 0 0 1-16 0Zm6.39-2.908a.75.75 0 0 1 .766.027l3.5 2.25a.75.75 0 0 1 0 1.262l-3.5 2.25A.75.75 0 0 1 8 12.25v-4.5a.75.75 0 0 1 .39-.658Z"
-        clip-rule="evenodd"
+        d="m216.32 334.44l114.45-69.14a10.89 10.89 0 0 0 0-18.6l-114.45-69.14a10.78 10.78 0 0 0-16.32 9.31v138.26a10.78 10.78 0 0 0 16.32 9.31"
       />
     </svg>
   );
@@ -1539,10 +1544,20 @@ export function MenuIcon(
   props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>,
 ) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" {...props}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      viewBox="0 0 512 512"
+      {...props}
+    >
       <path
-        fill="currentColor"
-        d="M104 160a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56Zm152 0a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56Zm152 0a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56ZM104 312a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56Zm152 0a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56Zm152 0a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56ZM104 464a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56Zm152 0a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56Zm152 0a56 56 0 1 1 56-56a56.06 56.06 0 0 1-56 56Z"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="44"
+        d="M118 304h276m-276-96h276"
       />
     </svg>
   );
