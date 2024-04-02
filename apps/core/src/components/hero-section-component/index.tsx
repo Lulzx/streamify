@@ -48,7 +48,7 @@ export default function HeroSectionComponent({
             }}
             className="mx-auto pb-4 sm:pb-8 text-center"
           >
-            <Link href="/story">
+            <Link href="https://streamifyjs.org">
               <div className={badgeVariants({ variant: "outline" })}>
                 <Badge variant="default" className="px-2 py-1 mr-3">
                   {badge_title}
