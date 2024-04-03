@@ -61,7 +61,11 @@ pnpm install && pnpm build
 pnpm dev
 ```
 
-## Features to be implemented
+## Requirements
+
+- i18n
+- mobile responsive
+- custom domain (DNS records)
 
 ### Core
 - [ ] Drag and drop functionality with dnd-kit
