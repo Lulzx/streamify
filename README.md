@@ -10,11 +10,11 @@
 <p align="center">
   The all-in-one CMS for video streaming solutions
 </p>
-<p align="center">
+<p align="center">https://discord.gg/Xb7g2dFfQB
     <a href="https://streamify.com"><strong>Learn more »</strong></a>
     <br />
     <br />
-    <a href="https://discord.gg/Qct64q7z">Discord</a>
+    <a href="https://discord.gg/Xb7g2dFfQB">Discord</a>
     ·
     <a href="https://github.com/streamify-com/streamify.com/issues">Issues</a>
     ·
