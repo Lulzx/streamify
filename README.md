@@ -86,7 +86,7 @@ or
 make up
 ```
 
-Open http://localhost:3000
+Open http://localhost:4001
 
 To shutdown all running containers:
 ```
