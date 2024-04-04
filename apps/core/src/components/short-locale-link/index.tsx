@@ -16,7 +16,7 @@ export default function ShortLocaleLink({ href, locale }: Props) {
       href={href}
       locale={locale}
       className={clsx(
-        "px-2 py-1 text-sm hover:sm:bg-foreground rounded-md hover:sm:border-separator sm:border sm:border-transparent",
+        "px-2 py-1 text-sm sm:hover:bg-foreground rounded-md sm:hover:border-separator sm:border sm:border-transparent",
         curLocale === locale && "underline underline-offset-4",
       )}
     >

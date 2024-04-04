@@ -1,5 +1,5 @@
 {
-  "name": "streamify.com",
+  "name": "streamify",
   "version": "1.0.0",
   "private": true,
   "author": {
@@ -19,11 +19,11 @@
   ],
   "homepage": "https://www.streamify.com",
   "bugs": {
-    "url": "https://github.com/streamify-com/streamify.com/issues"
+    "url": "https://github.com/streamify-com/streamify/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/streamify-com/streamify.com.git"
+    "url": "https://github.com/streamify-com/streamify.git"
   },
   "scripts": {
     "easy": "pnpm i && pnpm build && pnpm format:write && pnpm dev",

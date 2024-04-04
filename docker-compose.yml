@@ -1,13 +1,18 @@
-version: "3.5"
+version: "3"
 
 services:
-  app:
+  core:
+    container_name: core
     build:
       context: .
-      dockerfile: Dockerfile
-    container_name: streamify-docker
+      dockerfile: ./apps/core/Dockerfile
+    restart: always
     ports:
-      - "4001:3000"
-    volumes:
-      - .:/app
-      - /app/node_modules
+      - 4001:3000
+    networks:
+      - app_network
+
+# Define a network, which allows containers to communicate
+# with each other, by using their container name as a hostname
+networks:
+  app_network:

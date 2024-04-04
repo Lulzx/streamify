@@ -14,7 +14,7 @@
     <a href="https://streamify.com"><strong>Learn more »</strong></a>
     <br />
     <br />
-    <a href="https://discord.gg/Qct64q7z">Discord</a>
+    <a href="https://discord.gg/Xb7g2dFfQB">Discord</a>
     ·
     <a href="https://streamify.com">Website</a>
     ·
@@ -46,11 +46,13 @@ Check versions:
 node -v && pnpm -v && turbo --version && tsc -v
 ```
 
-## Installation
+## Start this project
 
-1. Navigate to the projects inside of the `apps` directory and copy the `.env.example` to `.env`. Update the variables.
+### Run locally
+
+1. Navigate to the projects inside of the `apps` directory and copy the `.env.example` to `.env.local`. Update the variables.
 ```
-cp .env.example .env
+cp .env.example .env.local
 ```
 
 2. Install all dependencies and build all apps and packages
@@ -60,10 +62,42 @@ pnpm install && pnpm build
 
 3. Running all projects locally
 ```
-pnpm dev
+pnpm run dev
 ```
 
-## Features to be implemented
+### Docker 
+
+This repo is configured to be built with Docker, and Docker compose. To build all apps in this repo:
+
+#### 1. Create a network, which allows containers to communicate with each other, by using their container name as a hostname
+```
+docker network create app_network
+```
+#### 2. Build prod using new BuildKit engine
+```
+COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose -f docker-compose.yml build
+```
+#### 3. Start prod in detached mode
+```
+docker-compose -f docker-compose.yml up -d
+```
+or
+```
+make up
+```
+
+Open http://localhost:3000
+
+To shutdown all running containers:
+```
+docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
+```
+
+## Requirements
+
+- i18n
+- mobile responsive
+- custom domain (DNS records)
 
 ### Core
 - [ ] Drag and drop functionality with dnd-kit

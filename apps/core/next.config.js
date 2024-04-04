@@ -6,7 +6,6 @@ const withPWA = require("next-pwa")({
 
 const withNextIntl = require("next-intl/plugin")();
 
-// You can nest plugin calls to apply multiple enhancements/plugins
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ["shared-components"],
@@ -15,7 +14,7 @@ const nextConfig = {
       "d2fplzddl6myl4.cloudfront.net",
       "tailwindui.com",
       "stream.mux.com",
-      "images.pexels.com", // Make sure your domains are correctly listed here
+      "images.pexels.com",
     ],
     remotePatterns: [
       {
@@ -29,7 +28,6 @@ const nextConfig = {
     ],
   },
   experimental: {
-    // Depending on your requirement, adjust experimental features
     taint: true, // For next-intl settings
   },
   logging: {
