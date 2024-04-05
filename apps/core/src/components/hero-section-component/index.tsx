@@ -127,10 +127,10 @@ export default function HeroSectionComponent({
                     }),
                   )}
                 >
-                  Get started
+                  Test
                 </Link>
                 <Link
-                  href="/welcome"
+                  href="https://93eca700-b764-4621-ab7f-de0792aa31ab.ma.bw-cloud-instance.org/jupyterhub"
                   className={cn(
                     buttonVariants({
                       variant: "tertiaryButton",
@@ -141,7 +141,7 @@ export default function HeroSectionComponent({
                 >
                   {/* <VideoIcon className="h-6 w-auto mr-2" /> */}
                   {/* Watch trailer (2 min) */}
-                  See demo
+                  TLJS
                   <ExpandingArrowRight className="h-4 w-auto ml-1 text-primary-muted" />
                 </Link>
               </motion.div>

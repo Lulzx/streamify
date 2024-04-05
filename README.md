@@ -98,6 +98,9 @@ docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
 - i18n
 - mobile responsive
 - custom domain (DNS records)
+- Desktop app
+- white-label
+- multi-tenant
 
 ### Core
 - [ ] Drag and drop functionality with dnd-kit
