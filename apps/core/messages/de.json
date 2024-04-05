@@ -125,7 +125,7 @@
     "notification": "Du wurdest erfolgreich dem Newsletter hinzugefügt."
   },
   "footer-declaration": {
-    "company": "Streamify",
+    "company": "Databrix",
     "all-rights-reserved": "Alle Rechte vorbehalten.",
     "light": "Hell",
     "dark": "Dunkel",
@@ -136,7 +136,7 @@
     "href": "/cancel-subscription"
   },
   "hero-homepage": {
-    "badge-title": "Streamify.js",
+    "badge-title": "Databrix.js",
     "badge-description": "Headless Video CMS",
     "badge-subtext": "Erfahre mehr darüber",
     "title-1": "Die All-in-One",
@@ -190,7 +190,7 @@
     "sitemap": "Seitenverzeichnis"
   },
   "footer-website": {
-    "company": "Streamify",
+    "company": "Databrix",
     "terms-of-services": "AGB",
     "privacy-policy": "Datenschutz",
     "cookie-policy": "Cookie-Richtlinie",

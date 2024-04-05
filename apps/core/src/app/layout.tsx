@@ -62,11 +62,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Streamify",
+      name: "Databrix",
       url: "https://github.com/streamify-com",
     },
   ],
-  creator: "Streamify",
+  creator: "Databrix",
   icons: {
     icon: "/favicon/favicon.ico",
     shortcut: "/favicon/favicon-16x16.png",

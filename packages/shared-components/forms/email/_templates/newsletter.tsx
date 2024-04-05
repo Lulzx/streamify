@@ -31,23 +31,23 @@ export const NewsletterEmail = ({
   <Tailwind>
     <Html>
       <Head />
-      <Preview>Streamify newsletter</Preview>
+      <Preview>Databrix newsletter</Preview>
       <Body style={main}>
         <Container style={container}>
           <Img
             src="https://d2fplzddl6myl4.cloudfront.net/logo/streamify-logo-purpur.svg"
             width="170"
             height="50"
-            alt="Streamify"
+            alt="Databrix"
             className="h-12 w-auto items-center justify-center mx-auto"
           />
           <Heading className="text-center text-2xl mt-10">
-            Welcome to the Streamify newsletter
+            Welcome to the Databrix newsletter
           </Heading>
           <Text style={paragraph} className="text-center sm:text-left">
-            Thank you for your interest in Streamify. You will receive news
-            about the progress of the project as well as new features and
-            articles about content monetization.
+            Thank you for your interest in Databrix. You will receive news about
+            the progress of the project as well as new features and articles
+            about content monetization.
           </Text>
           <Section style={btnContainer}>
             <Button style={button} href={baseUrl} className="my-6">

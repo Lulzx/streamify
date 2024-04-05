@@ -22,9 +22,9 @@
     --secondary-inner: 112, 112, 112, 1;
     --secondary-hover: 0, 0, 0, 1;
 
-    --action: 178, 16, 100, 1;
-    --action-muted: 112, 16, 66, 1;
-    --action-spatial: 178, 16, 100, 0.25;
+    --action: 64, 123, 191, 1;
+    --action-muted: 29, 43, 58, 1;
+    --action-spatial: 64, 123, 191, 0.25;
 
     /* Signal colors */
     --active: 13, 153, 255, 1;
@@ -81,9 +81,9 @@
     --secondary-inner: 112, 112, 112, 1;
     --secondary-hover: 255, 255, 255, 1;
 
-    --action: 178, 16, 100, 1;
-    --action-muted: 112, 16, 66, 1;
-    --action-spatial: 178, 16, 100, 0.25;
+    --action: 64, 123, 191, 1;
+    --action-muted: 29, 43, 58, 1;
+    --action-spatial: 64, 123, 191, 0.25;
 
     /* Signal colors */
     --active: 13, 153, 255, 1;
@@ -188,10 +188,10 @@ body {
 }
 
 #gradient-canvas {
-  --gradient-color-1: #c252ff;
-  --gradient-color-2: #f464ac;
+  --gradient-color-1: #bde1ff;
+  --gradient-color-2: #6ca0f4;
   --gradient-color-3: #e2d8ee;
-  --gradient-color-4: #fe6192;
+  --gradient-color-4: #94c8ff;
 }
 
 .rdp-vhidden {

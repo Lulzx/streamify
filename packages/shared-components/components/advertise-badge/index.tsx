@@ -10,12 +10,12 @@ export default function AdvertiseBadge() {
         className={badgeVariants({ variant: "outline" })}
         href="https://www.streamify.com"
         target="_blank"
-        aria-label="Streamify ad"
+        aria-label="Databrix ad"
       >
         <PrimaryIcon className="text-primary group sm:group-hover:text-action ml-2 h-4 w-4 p-2" />
         <span className="text-primary ">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
         <span className="text-primary sm:group-hover:text-action">
-          Created with Streamify
+          Created with Databrix
         </span>
       </Link>
     </div>

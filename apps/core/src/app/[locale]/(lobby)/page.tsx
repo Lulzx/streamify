@@ -6,7 +6,7 @@ export default function Page() {
 
   return (
     <div>
-      <HeroSectionComponent
+      {/* <HeroSectionComponent
         title_1={t("title-1")}
         title_2={t("title-2")}
         title_3={t("title-3")}
@@ -15,7 +15,8 @@ export default function Page() {
         badge_description={t("badge-description")}
         badge_subtext={t("badge-subtext")}
         badge_title={t("badge-title")}
-      />
+      /> */}
+      Databrix Hero Text
     </div>
   );
 }

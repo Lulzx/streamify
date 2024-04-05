@@ -57,7 +57,7 @@ export function HeaderWebsite({
           </div> */}
           <div className="sm:flex items-center gap-12">
             <Link href="/" className="items-center">
-              <PrimaryLogo className="text-action sm:hover:text-action-muted h-7 w-auto sm:w-auto" />
+              <PrimaryLogo className="text-action sm:hover:text-action-muted h-5 w-auto sm:w-auto" />
             </Link>
             <NavigationBar
               products={products}

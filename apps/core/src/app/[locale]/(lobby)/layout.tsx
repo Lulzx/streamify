@@ -20,7 +20,7 @@ export default async function OpenLobbyLayout({
       <main className="flex-1 pt-8 sm:pt-24 sm:pb-8">{children}</main>
       <CookieBannerComponent />
       <FooterHomeComponent />
-      <FooterPaymentLayout />
+      {/* <FooterPaymentLayout /> */}
       <FooterDeclarationComponent />
     </div>
   );

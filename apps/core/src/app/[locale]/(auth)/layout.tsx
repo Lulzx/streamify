@@ -16,7 +16,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
           <GradientBackground />
           <div className="relative hidden h-full flex-col md:flex">
             <Link href="/" className="absolute z-30 hidden m-20 md:flex">
-              <PrimaryLogo className="text-background sm:hover:text-background-hover h-8 w-auto sm:h-14 sm:w-auto sm:drop-shadow-md" />
+              <PrimaryLogo className="text-background sm:hover:text-background-hover h-8 w-auto sm:h-8 sm:w-auto sm:drop-shadow-md" />
             </Link>
             <div className="absolute z-30 hidden ml-20 bottom-20 md:flex">
               <ThemeIconToggleTabs />

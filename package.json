@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "author": {
-    "name": "Streamify",
+    "name": "Databrix",
     "url": "https://www.streamify.com"
   },
-  "description": "Monorepo of Streamify - An All-in-One solution to develop, maintain and deploy custom video streaming platforms.",
+  "description": "Monorepo of Databrix - An All-in-One solution to develop, maintain and deploy custom video streaming platforms.",
   "keywords": [
     "streamify",
     "streaming",

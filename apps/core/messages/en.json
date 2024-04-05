@@ -125,7 +125,7 @@
     "notification": "You have been successfully added to the newsletter."
   },
   "footer-declaration": {
-    "company": "Streamify",
+    "company": "Databrix",
     "all-rights-reserved": "All rights reserved.",
     "light": "Light",
     "dark": "Dark",
@@ -172,7 +172,7 @@
     "sitemap": "Sitemap"
   },
   "footer-website": {
-    "company": "Streamify",
+    "company": "Databrix",
     "terms-of-services": "Terms of Services",
     "privacy-policy": "Privacy Policy",
     "cookie-policy": "Cookie Policy",
@@ -238,7 +238,7 @@
     }
   },
   "hero-homepage": {
-    "badge-title": "Streamify.js",
+    "badge-title": "Databrix.js",
     "badge-description": "Headless Video CMS",
     "badge-subtext": "Learn more about it",
     "title-1": "The all-in-one",

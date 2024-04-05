@@ -73,7 +73,7 @@ export default function Page({ params: { locale } }: Props) {
         activeLocale={curLocale}
       />
       <CopyToClipboard
-        copy_text="Streamify rocks"
+        copy_text="Databrix rocks"
         CopySucessful={x("CopySucessful")}
         CopyFailed={x("CopyFailed")}
       />

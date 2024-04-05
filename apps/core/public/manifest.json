@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Streamify",
-  "short_name": "Streamify",
-  "description": "Streamify: All-in-One streaming platform for content creators",
+  "name": "Databrix",
+  "short_name": "Databrix",
+  "description": "Databrix: All-in-One streaming platform for content creators",
   "icons": [
     {
       "src": "/icon/icon-192x192.png",

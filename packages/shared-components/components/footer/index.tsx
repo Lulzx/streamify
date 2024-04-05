@@ -153,7 +153,7 @@ export function FooterHomepageLayout({
     >
       <HomepageContainer>
         <div className="sm:my-4 flex items-center justify-center">
-          <PrimaryLogo className="text-action h-8 w-auto" />
+          <PrimaryLogo className="text-action h-5 w-auto" />
         </div>
         <div className="pb-2 pt-4 sm:pt-8">
           <div className="sm:grid sm:grid-cols-3 sm:gap-8">
