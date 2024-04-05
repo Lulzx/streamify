@@ -98,6 +98,8 @@ docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
 - i18n
 - mobile responsive for all browsers
 - custom domain (DNS records)
+- All-in-One solution
+- SEO
 - Desktop & Mobile app (later)
 - Monorepo
 
