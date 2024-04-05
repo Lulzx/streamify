@@ -99,6 +99,7 @@ docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
 - mobile responsive for all browsers
 - custom domain (DNS records)
 - All-in-One solution
+- PayPal
 - SEO
 - Desktop & Mobile app (later)
 - Monorepo
