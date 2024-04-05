@@ -96,8 +96,10 @@ docker kill $(docker ps -q) && docker rm $(docker ps -a -q)
 ## Requirements
 
 - i18n
-- mobile responsive
+- mobile responsive for all browsers
 - custom domain (DNS records)
+- Desktop & Mobile app (later)
+- Monorepo
 
 ### Core
 - [ ] Drag and drop functionality with dnd-kit
